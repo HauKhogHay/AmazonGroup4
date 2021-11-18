@@ -1,0 +1,112 @@
+body[b-g0zy2p89ya] {
+}
+
+header[b-g0zy2p89ya] {
+    height: 60px;
+    background: #131921;
+    width: 1500px;
+}
+
+.container[b-g0zy2p89ya] {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+*[b-g0zy2p89ya] {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header img[b-g0zy2p89ya] {
+    width: 150px;
+    padding-left: 20px;
+}
+/*Navmenu*/
+nav[b-g0zy2p89ya] {
+    display: block;
+    background: #232F3F;
+    height: 40px;
+    width: 1500px;
+    margin-top: 23px;
+}
+
+    nav .menu ul[b-g0zy2p89ya] {
+        list-style-type: none;
+    }
+
+        nav .menu ul li[b-g0zy2p89ya] {
+            float: left;
+            line-height: 33px;
+            padding: 0 15px;
+        }
+
+            nav .menu ul li:last-child[b-g0zy2p89ya] {
+                border-right: none;
+            }
+
+            nav .menu ul li a[b-g0zy2p89ya] {
+                color: white;
+                font-size: 14px;
+                text-align: center;
+                text-decoration: none;
+            }
+
+                nav .menu ul li a:hover:not(.active)[b-g0zy2p89ya] {
+                    color: yellow;
+                    border-style: solid;
+                    /*border-color: #fff;*/
+                }
+
+
+/*search*/
+header .search[b-g0zy2p89ya] {
+    line-height: 40px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 6px;
+    padding: 2px;
+}
+
+.search button[b-g0zy2p89ya] {
+    float: right;
+    background: #FEBD69;
+    font-size: 14px;
+    height: 42px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+[type=search][b-g0zy2p89ya] {
+    width: 600px;
+    height: 42px;
+    border: none;
+    padding: 6px;
+}
+
+@media screen and (max-width: 600px) {
+    .search[b-g0zy2p89ya] {
+        float: none;
+    }
+
+        input[type=text][b-g0zy2p89ya], .search button[b-g0zy2p89ya] {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            padding: 14px;
+        }
+
+            .search button:hover[b-g0zy2p89ya] {
+                background: #F56600;
+            }
+}
+
+*[b-g0zy2p89ya] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}

@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\ASP.NET\NhomNumber4\EmployeeManagement.Web\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/EmployeeManagement.Api" Path="D:\ASP.NET\NhomNumber4\EmployeeManagement.Api\wwwroot\" />
+</StaticWebAssets>

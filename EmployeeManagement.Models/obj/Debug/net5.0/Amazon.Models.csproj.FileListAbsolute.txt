@@ -1,0 +1,12 @@
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\bin\Debug\net5.0\Amazon.Models.deps.json
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\bin\Debug\net5.0\Amazon.Models.dll
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\bin\Debug\net5.0\ref\Amazon.Models.dll
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\bin\Debug\net5.0\Amazon.Models.pdb
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\obj\Debug\net5.0\Amazon.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\obj\Debug\net5.0\Amazon.Models.AssemblyInfoInputs.cache
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\obj\Debug\net5.0\Amazon.Models.AssemblyInfo.cs
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\obj\Debug\net5.0\Amazon.Models.csproj.CoreCompileInputs.cache
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\obj\Debug\net5.0\Amazon.Models.dll
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\obj\Debug\net5.0\ref\Amazon.Models.dll
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\obj\Debug\net5.0\Amazon.Models.pdb
+D:\ASP.NET\NhomNumber4\EmployeeManagement.Models\obj\Debug\net5.0\Amazon.Models.csproj.AssemblyReference.cache

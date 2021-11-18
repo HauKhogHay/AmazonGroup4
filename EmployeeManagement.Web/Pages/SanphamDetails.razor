@@ -1,0 +1,57 @@
+﻿@page "/sanphamdetails/{id}"
+@page "/sanphamdetails"
+@inherits SanphamDetailsBase
+
+@if (Sanpham == null || Sanpham.Color == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-body text-center">
+                <img class="card-img-top" src="@Sanpham.PhotoPath"
+                     @onmousemove="@(e => Coordinates = $"X = {e.ClientX} Y = {e.ClientY}")" />
+
+                <div class="fontsize-h1">
+                    <h1>@Coordinates</h1>
+                </div>
+            </div>
+            @*
+        <button class="btn btn-primary" @onclick="@Button_Click">@ButtonText</button>
+        <div class="card-footer text-center @CssClass">
+            <a href="/sanphamlist" class="btn btn-primary">Back</a>
+            <a href="#" class="btn btn-primary">Edit</a>
+            <a href="#" class="btn btn-danger">Delete</a>
+        </div>
+            *@
+        </div>
+    </div>
+
+    <div class="card2">
+        <div class="card-header">
+            <h1>
+                @Sanpham.TenSP <br />
+            </h1>
+            <div class="vote">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <h2>
+                Giá: @Sanpham.GiaSP$
+            </h2>
+            <br />
+            <h4>Color : @Sanpham.Color.ColorName</h4>
+        </div>
+        <button class="addtobag">Add To Bag</button>
+    </div>
+
+
+</div>
+
+}

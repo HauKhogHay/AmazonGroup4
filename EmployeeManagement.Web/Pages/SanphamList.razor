@@ -1,0 +1,27 @@
+﻿@page "/sanphamlist"
+@inherits SanphamListBase
+
+<div class="font-h3">
+    <h3>Sản phẩm mới hôm nay</h3>
+</div>
+<div class="font-h1">
+    <h1>Các sản phẩm đã chọn: @SelectedSanphamsCount </h1>
+</div>
+@*<input type="checkbox" id="showFooter" @bind="ShowFooter" />
+    <label for="showFooter">Show Footer</label>*@
+
+
+@if (Sanphams == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    <div class="card-deck">
+        @foreach (var sanpham in Sanphams)
+        {
+            <DisplaySanpham Sanpham="sanpham" ShowFooter="ShowFooter" OnSanphamSelection="SanphamSelectionChanged">
+            </DisplaySanpham>
+        }
+    </div>
+}

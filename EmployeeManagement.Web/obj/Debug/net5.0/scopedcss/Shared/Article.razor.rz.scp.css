@@ -1,0 +1,34 @@
+
+/*------------*/
+
+.main article .new_list .new_item[b-sn5tps4yak] {
+    width: 23%;
+    padding: 2%;
+    float: left;
+    background-color: #fff;
+    margin-right: 2%;
+}
+
+.img_card img[b-sn5tps4yak] {
+    width: 98%;
+    height:300px;
+}
+
+.content[b-sn5tps4yak] {
+    color: blue;
+    font-size: 12px;
+}
+
+    .content a:hover[b-sn5tps4yak] {
+        color: orange;
+        text-decoration: underline;
+    }
+
+.main article[b-sn5tps4yak] {
+    padding: 1%;
+    padding-left:3%;
+}
+.main[b-sn5tps4yak] {
+    flex: 1;
+    margin-top: -333px;
+}

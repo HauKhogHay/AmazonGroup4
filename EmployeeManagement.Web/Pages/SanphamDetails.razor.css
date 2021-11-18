@@ -1,0 +1,89 @@
+﻿.m-3 {
+    margin: 5rem !important;
+}
+.col-sm-8 {
+    flex: 0 0 66.666667%;
+    max-width: 20%;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0px;
+    word-wrap: break-word;
+    background-color: #f8f9fa;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-left: -200px;
+    margin-right: 5px;
+}
+}
+}
+.card2 {
+    float: right;
+    margin: 0 365px 0 0;
+}
+    .card2 .card-header {
+        padding: 2%;
+        margin-bottom: 0;
+        width: 600px;
+    }
+        .card2 .card-header h1 {
+            font-family: system-ui;
+            font-size: 50px;
+            color: rgb(15 199 229 / 61%);
+        }
+        .card2 .card-header h2 {
+            font-family: monospace;
+            font-size: 35px;
+            color: red;
+        }
+        .card2 .card-header h4 {
+            font-size: 14px;
+        }
+.fontsize-h1 h1{
+    font-size:15px;
+    color:blue;
+    margin-top:10px;
+}c
+.vote .checked {
+    color: orange;
+}
+button.addtobag {
+    margin: 40px 0 0 0;
+    width: 50%;
+    height: 8%;
+    border-radius: 30px;
+    background-color: rgb(0 0 0 / 90%);
+    color: white;
+    font-size: 25px;
+    font-family: system-ui;
+}
+    button.addtobag:hover {
+        background-color: #2f4d6c;
+    }
+.dropdown img{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content img {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
